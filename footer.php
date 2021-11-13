@@ -42,7 +42,7 @@
 					    <input type="hidden" name="suburl" class="sub-url" value="">
 					    <input type="hidden" name="submitted-from" class="submitted-from" value="">
 					    <!-- TESTING REMOVE ON LIVE -->
-					    <input type="hidden" name="test" value="linards@onthemapmarketing.com">
+					    <input type="hidden" name="test" value="davis@onthemapmarketing.com">
 					    <!-- END TESTING SECTION -->
 					    <div class="row">
 					      <div class="col-12 col-md-4 col-lg-12 input-wrapper">
