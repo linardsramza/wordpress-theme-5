@@ -1,0 +1,52 @@
+form {
+  .input-wrapper {
+    position: relative;
+
+    input,
+    textarea {
+      padding-left: 35px;
+    }
+  }
+
+  .form-icon {
+    position: absolute;
+    left: 25px;
+    color: #495057;
+  }
+}
+
+form.footer-contact-form {
+  input,
+  textarea {
+    height: 38px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 0;
+    color: #495057;
+    font-family: $font-family-secondary;
+    font-weight: 300;
+    font-size: 0.9375rem;
+
+    &::placeholder {
+      color: #495057;
+      font-family: $font-family-secondary;
+      font-weight: 300;
+      font-size: 0.9375rem;
+    }
+  }
+
+  input {
+    line-height: 38px;
+  }
+
+  .form-icon {
+    font-size: 15px;
+    line-height: 38px;
+  }
+
+  .otm-form-response {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+  }
+}

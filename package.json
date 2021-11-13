@@ -1,0 +1,22 @@
+{
+  "name": "otm_wp_starter_theme",
+  "version": "1.0.0",
+  "description": "Wordpress starter theme developed by the OTM team.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OTM Team",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss": "^7.0.2"
+  }
+}

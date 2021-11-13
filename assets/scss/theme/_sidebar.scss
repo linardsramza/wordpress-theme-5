@@ -1,0 +1,91 @@
+.sidebar {
+	padding: 60px 30px;
+
+	h2, h3 {
+		font-family: $font-family-tertiary;
+		color: $body-color;
+		text-align: center;
+		font-weight: 700;
+		font-size: 1.875rem;
+
+		&:after {
+	    content: '';
+	    display: block;
+	    margin: 15px auto;
+	    width: 150px;
+	    height: 2px;
+	    background-color: $primary;
+	  }
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		
+		li {
+			padding-left: 15px;
+			
+			&::before {    
+				font-family: 'Font Awesome 5 Free';
+				content: "\f0da"; /* Font Awesome Unicode */
+				color: $primary;
+				display: inline-block;
+				margin-left: -15px; /* same as padding-left set on li */
+				width: 15px; /* same as padding-left set on li */		
+				font-weight: 900;
+			}
+
+			a {
+				color: #000;
+				font-size: 1.25rem;
+				font-weight: 700;
+			}
+		}
+	}
+
+	section {
+		padding: 15px 30px;
+		margin-bottom: 20px;
+		background-color: #fff;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			
+			li {
+				padding-left: 15px;
+				
+				&::before {    
+					font-family: 'Font Awesome 5 Free';
+					content: "\f0da"; /* Font Awesome Unicode */
+					color: $primary;
+					display: inline-block;
+					margin-left: -15px; /* same as padding-left set on li */
+					width: 15px; /* same as padding-left set on li */		
+				}
+			}
+		}
+
+	  & > *:last-child {
+	  	margin-bottom: 0;
+	  }
+	}
+
+  .widget_search {
+  	form {
+  		position: relative;
+
+  		input {
+  			width: 100%;
+  			padding-right: 53px; //Width of the search button + some px, so that the input text doesn't go under the button.
+  		}
+
+  		button {
+  			position: absolute;
+  			right: 0;
+  			border-top-left-radius: 0;
+  			border-bottom-left-radius: 0;
+  		}
+  	}
+  }
+}

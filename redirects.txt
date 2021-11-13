@@ -1,0 +1,28 @@
+# REDIRECTS
+
+# PRACTICE AREAS
+301 Redirect /area /practice-areas
+301 Redirect /area/personal /practice-areas/personal-injury
+301 Redirect /area/premises /practice-areas/premises-liability
+301 Redirect /area/product-liability /practice-areas/product-liability
+301 Redirect /area/municipal-liability /practice-areas/municipal-liability
+301 Redirect /area/construction-liability /practice-areas/construction-liability
+301 Redirect /area/wrongful-death /practice-areas/wrongful-death
+301 Redirect /area/medical-malpractice-cases /practice-areas/medical-malpractice
+301 Redirect /area/police-and-governmental-abuse /practice-areas/police-and-governmental-abuse
+301 Redirect /area/nursing /practice-areas/nursing-home-negligence
+301 Redirect /area/motorcycle-accident-lawyer /practice-areas/motorcycle-accidents
+301 Redirect /area/Bus-Accident-Lawyer /practice-areas/bus-accidents
+301 Redirect /area/Pedestrian-Accident-Lawyer /practice-areas/pedestrian-sidewalk-accidents
+301 Redirect /area/car-accidents /practice-areas/car-accidents
+301 Redirect /truck-accidents /practice-areas/truck-accidents
+301 Redirect /slip-and-fall-accidents /practice-areas/slip-and-fall-accidents
+301 Redirect /trip-and-fall-accidents /practice-areas/trip-and-fall-accidents
+301 Redirect /fire-and-explosion-accidents /practice-areas/fire-and-explosion-accidents
+301 Redirect /elevator-accidents /practice-areas/elevator-accidents
+301 Redirect /birth-defects-and-brain-injury-cases /practice-areas/birth-defects-and-brain-injury
+301 Redirect /bed-sore-cases /practice-areas/bed-sores
+
+
+301 Redirect /attorney /attorney-profiles
+301 Redirect

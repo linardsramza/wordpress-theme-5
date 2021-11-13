@@ -1,0 +1,1 @@
+<?php echo otm_get_option( 'footer_scripts' ); ?>

@@ -1,0 +1,34 @@
+//Styling for the content that comes from the Wordpress editor
+.editor-content {
+	@include media-breakpoint-down(xs) {
+		.wp-block-image .alignleft,
+		.wp-block-image .alignright {
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+
+		.wp-block-image .alignleft,
+		.wp-block-image .alignright {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+  & > *:last-child {
+  	margin-bottom: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+  	font-family: $font-family-tertiary;
+  	font-weight: 700;
+  }
+}
+
+//TinyMCE Styling
+#tinymce {
+	padding: 15px!important;
+	background: none!important;
+}
